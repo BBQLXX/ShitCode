@@ -294,41 +294,6 @@ def tyc_interface(project_id, tyc_input, url, type='base'):
         response_dict = json.loads(res.text)
         return response_dict.get('data')
     # log(response_dict['code'])
-    # res_text = {
-    #     "code": 200,
-    #     "msg": "success",
-    #     "data": [
-    #         {
-    #             "_id": {
-    #                 "timestamp": 1723711360,
-    #                 "machineIdentifier": 11136340,
-    #                 "processIdentifier": 12894,
-    #                 "counter": 13424190,
-    #                 "time": 1723711360000,
-    #                 "date": "2024-08-15T16:42:40.000+08:00",
-    #                 "timeSecond": 1723711360
-    #             },
-    #             "cgid": 24656853,
-    #             "capital": [
-    #                 {
-    #                     "amomon": "200万元人民币",
-    #                     "paymet": "",
-    #                     "time": "2016-09-28",
-    #                     "percent": "100%"
-    #                 }
-    #             ],
-    #             "name": "北京孩思乐商业有限公司",
-    #             "capitalActl": [],
-    #             "logo": "https://img5.tianyancha.com/logo/lll/777365e01e87866cef1170e681d28604.png@!f_200x200",
-    #             "alias": "孩思乐",
-    #             "id": 24656853,
-    #             "type": 1,
-    #             "hcgid": "",
-    #             "insertTime": "2024-08-15T16:42:40.085+08:00",
-    #             "keyword": "北京凯奇乐商业有限公司"
-    #         }
-    #     ]
-    # }
 
     # if res_text['code'] == 200:
     #     holder_list = []
